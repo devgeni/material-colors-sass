@@ -12,7 +12,7 @@ I didn't copied and pasted those colors manually. I used some javascript code in
 
 ### Below is the code for that link
 *(Sorry, if you see it as a mess... I used that code mostly as an ES6 spread array thing)*
-```
+```javascript
 var groups = document.querySelectorAll('.color-group');
 
 var colors = [].map.call(groups, (group) => {
